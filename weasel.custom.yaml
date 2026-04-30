@@ -1,0 +1,397 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Apr 29 21:00:45 2026"
+  rime_version: 1.13.1
+patch:
+  "preset_color_schemes/cyberpunk":
+    author: "AI 设计"
+    back_color: 0x28060D
+    border_color: 0xFFF000
+    candidate_text_color: 0xFFFFE0
+    comment_text_color: 0x6E563B
+    hilited_back_color: 0x28060D
+    hilited_candidate_back_color: 0x05E2FC
+    hilited_candidate_text_color: 0x28060D
+    hilited_text_color: 0x3C00FF
+    label_color: 0x7A00FF
+    name: "赛博朋克 / Cyberpunk"
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 2
+    "style/layout/candidate_spacing": 8
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 1
+    "style/layout/margin_y": 1
+    "style/layout/spacing": 10
+    text_color: 0x3C00FF
+  "preset_color_schemes/google_blue":
+    author: "AI 设计"
+    back_color: 0xFFFFFF
+    border_color: 0xE0DCDA
+    candidate_text_color: 0x43403C
+    comment_text_color: 0x7A7570
+    hilited_back_color: 0xF4F3F1
+    hilited_candidate_back_color: 0xF48542
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0x43403C
+    label_color: 0xF48542
+    name: "谷歌蓝 / Google Blue"
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 6
+    "style/layout/corner_radius": 12
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 6
+    "style/layout/margin_y": 6
+    "style/layout/round_corner": 12
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 4
+    "style/layout/shadow_radius": 8
+    "style/layout/spacing": 12
+    text_color: 0x43403C
+  "preset_color_schemes/logos_light":
+    author: "AI 设计"
+    back_color: 0xFAFAFA
+    border_color: 0xEAEAEA
+    candidate_text_color: 0x222222
+    comment_text_color: 0x888888
+    hilited_back_color: 0xFAFAFA
+    hilited_candidate_back_color: 0xFAFAFA
+    hilited_candidate_text_color: 0xFF7300
+    hilited_text_color: 0x222222
+    label_color: 0x999999
+    name: "落格浅色无框 / Logos Light"
+    shadow_color: 0xCCCCCC
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 0
+    "style/layout/candidate_spacing": 6
+    "style/layout/corner_radius": 8
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 8
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 4
+    "style/layout/shadow_radius": 8
+    "style/layout/spacing": 12
+    text_color: 0x1A1A1A
+  "preset_color_schemes/macos_light":
+    author: "AI 设计"
+    back_color: 0xF6F6F6
+    border_color: 0xE0E0E0
+    candidate_text_color: 0x1A1A1A
+    comment_text_color: 0x999999
+    hilited_back_color: 0xF6F6F6
+    hilited_candidate_back_color: 0xD76D05
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0x1A1A1A
+    label_color: 0xA2A2A2
+    name: "macOS 浅色拟态 / macOS Light"
+    shadow_color: 0xCCCCCC
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 6
+    "style/layout/corner_radius": 12
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 6
+    "style/layout/margin_y": 6
+    "style/layout/round_corner": 12
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 4
+    "style/layout/shadow_radius": 12
+    "style/layout/spacing": 12
+    text_color: 0x1A1A1A
+  "preset_color_schemes/monument_valley":
+    author: "AI 设计"
+    back_color: 0xE7F3FD
+    border_color: 0xE7F3FD
+    candidate_text_color: 0x7E6D5D
+    comment_text_color: 0xC1C8CF
+    hilited_back_color: 0xE7F3FD
+    hilited_candidate_back_color: 0x677CF1
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0x7E6D5D
+    label_color: 0x677CF1
+    name: "纪念碑谷：艾达的梦 / Monument Valley"
+    shadow_color: 0xC0A5A5
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 6
+    "style/layout/corner_radius": 6
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 6
+    "style/layout/margin_y": 6
+    "style/layout/round_corner": 6
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 6
+    "style/layout/shadow_radius": 8
+    "style/layout/spacing": 12
+    text_color: 0x7E6D5D
+  "preset_color_schemes/persona5":
+    author: "AI 设计"
+    back_color: 0x111111
+    border_color: 0x1200E5
+    candidate_text_color: 0xFFFFFF
+    comment_text_color: 0x1200E5
+    hilited_back_color: 0x111111
+    hilited_candidate_back_color: 0x1200E5
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0x1200E5
+    label_color: 0xFFFFFF
+    name: "女神异闻录5 / Persona 5"
+    shadow_color: 0x050505
+    "style/font_point": 18
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 18
+    "style/layout/border_width": 3
+    "style/layout/candidate_spacing": 8
+    "style/layout/corner_radius": 0
+    "style/layout/hilite_padding": 8
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 0
+    "style/layout/shadow_offset_x": 6
+    "style/layout/shadow_offset_y": 6
+    "style/layout/shadow_radius": 0
+    "style/layout/spacing": 6
+    text_color: 0x1200E5
+  "preset_color_schemes/persona3":
+    author: "AI 设计"
+    back_color: 0x140B05                  # 影时间(Dark Hour)深海洋蓝 (BGR: 0x140B05, RGB: #050B14)
+    border_color: 0xE3750A                # P3 月光水波蓝/澄蓝色 (BGR: 0xE3750A, RGB: #0A75E3)
+    candidate_text_color: 0xE0E0E0        # 候选项文字：忧郁的冷白
+    comment_text_color: 0x997755          # 旁注(编码)：灰暗水蓝色
+    hilited_back_color: 0x140B05          # 拼音区底色：与面板同色
+    hilited_candidate_back_color: 0xE3750A # 选中项色块：澄蓝主题色淹没
+    hilited_candidate_text_color: 0xFFFFFF # 选中项字色：极限纯白，对比强烈
+    hilited_text_color: 0xE3750A          # 输入时高亮的拼音：依然保持水蓝色
+    label_color: 0xFFFFFF                 # 编号颜色：纯白
+    name: "女神异闻录3 / Persona 3"
+    shadow_color: 0x663300                # 海蓝色光晕阴影 (RGB: #003366)
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 16
+    "style/layout/border_width": 2        # 保持一定的边框刻画轮廓
+    "style/layout/candidate_spacing": 10  # 稍微宽裕一点的排版，表现水世界的流动感
+    "style/layout/corner_radius": 5       # 【P3专属设计】P3/P3R的UI以月面、水滴圆润+平滑光泽为主，不能像P5那样纯直角
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 5
+    "style/layout/spacing": 8
+    text_color: 0xE3750A                  # 拼音基准色
+  "preset_color_schemes/gris":
+    author: "AI 设计"
+    name: "Gris：水彩幻梦 / Gris"
+    
+    # === 水彩系背景 ===
+    back_color: 0xF9F4F4                  # 柔和的水彩画纸 (BGR: 0xF9F4F4, RGB: #F4F4F9)
+    border_color: 0xF5EBE6                # 隐约的蓝色水渍感边缘 (BGR: 0xF5EBE6, RGB: #E6EBF5)
+    shadow_color: 0xF8EAD6                # 大面积的蓝颜料晕染阴影 (BGR: 0xF8EAD6, RGB: #D6EAF8)
+    
+    # === 拼音与点缀字色 (使用 Gris 标志性的 Teal 蓝绿/青色) ===
+    text_color: 0x9DB345                  # 输入拼音色：忧郁又清新的青色 (BGR: 0x9DB345, RGB: #45B39D)
+    hilited_text_color: 0x9DB345          # 高亮拼音同青色
+    hilited_back_color: 0xF9F4F4          # 拼音区底色与背景融合
+    
+    # === 核心碰撞色 (使用 Gris 破局的 Coral 珊瑚红/粉色) ===
+    hilited_candidate_back_color: 0x8A94F1 # 巨大的水彩珊瑚红晕染块 (BGR: 0x8A94F1, RGB: #F1948A)
+    hilited_candidate_text_color: 0xFFFFFF # 高亮项白字，如珊瑚礁中纯净的星泡
+    
+    candidate_text_color: 0x5E4934        # 普通字色：石板深灰，像钢笔勾线的质感 (BGR: 0x5E4934, RGB: #34495E)
+    comment_text_color: 0xBBBAB2          # 旁注颜色：极度衰减的褪色感 (BGR: 0xBBBAB2, RGB: #B2BABB)
+    label_color: 0xBBBAB2                 # 序号同褪色感
+    
+    # === 空灵的排版几何 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 14  # 空灵感核心：候选项的呼吸空间拉得非常大
+    "style/layout/corner_radius": 8       # 柔润不张扬的圆角
+    "style/layout/hilite_padding": 8      # 色块拉长变软
+    "style/layout/margin_x": 12           # 面板非常宽阔
+    "style/layout/margin_y": 12
+    "style/layout/round_corner": 8
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 6     # 让光斑有点向下的重力感
+    "style/layout/shadow_radius": 15      # 极高弥散度的阴影，打散边界的感觉
+    "style/layout/spacing": 14            # 拉扯开排版距离
+  "preset_color_schemes/hifi_rush":
+    author: "AI 设计"
+    name: "完美音浪 / Hi-Fi RUSH"
+    
+    # === 漫画波普硬底色 ===
+    back_color: 0x0F1115                  # 极深的漫画墨水黑，带有微弱的暖紫调 (BGR: 0x0F1115)
+    border_color: 0xF0E600                # 电音青/节拍发光蓝 (BGR: 0xF0E600, RGB: #00E6F0) 粗边框压阵
+    shadow_color: 0x004EFF                # 阿茶战袍的躁动亮橙色 (BGR: 0x004EFF, RGB: #FF4E00)，当阴影做错位色块
+    
+    # === 拼音与跳跃点缀 ===
+    text_color: 0x00DDFF                  # 正在敲击的拼音：高能漫画黄 (BGR: 0x00DDFF, RGB: #FFDD00)
+    hilited_text_color: 0x00DDFF          # 高亮拼音：漫画黄
+    hilited_back_color: 0x0F1115          # 拼音区底色：墨水黑
+    
+    # === 节奏击中(高亮)色块 ===
+    hilited_candidate_back_color: 0x004EFF # 选中项背景：阿茶的亮橙色填满补面
+    hilited_candidate_text_color: 0x0F1115 # 选中项字色：墨水黑反白，类似警示胶带的超高反差
+    
+    candidate_text_color: 0xFDFDFD        # 常规候选字：无光泽的网点纸白 (BGR: 0xFDFDFD)
+    comment_text_color: 0x00DDFF          # 旁注(如拼音拼写)：高能黄点缀 (BGR: 0x00DDFF)
+    label_color: 0x00DDFF                 # 序号：改成高能黄！注入灵魂打拍子的感觉
+    
+    # === 美式漫画剪报排版学 ===
+    "style/font_point": 18                # 字体放开，非常喧闹
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 18
+    "style/layout/border_width": 3        # 必须是极粗的“钢笔描边”
+    "style/layout/candidate_spacing": 10  # 稍微拉开，让色块饱满碰撞
+    "style/layout/corner_radius": 0       # 美漫纸张剪报，绝对直角！
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 0
+    "style/layout/shadow_offset_x": 8     # 非常生硬的波普错层印刷阴影
+    "style/layout/shadow_offset_y": 8
+    "style/layout/shadow_radius": 0       # 绝对不羽化！像CMYK印刷对不齐的网点效果
+    "style/layout/spacing": 12
+  "preset_color_schemes/darksiders_war":
+    author: "AI 设计"
+    name: "暗黑血统：战神 / Darksiders"
+    
+    # === 焦土与深渊背景 ===
+    back_color: 0x1A1918                  # 焦土与锈铁的暗沉灰黑 (BGR: 0x1A1918, RGB: #18191A)，充满末日余烬的沉重感
+    border_color: 0x1405A1                # 混沌吞噬者(Chaos Eater)剑刃的干涸暗血红 (BGR: 0x1405A1, RGB: #A10514)
+    shadow_color: 0x050302                # 深渊黑 (BGR: 0x050302)，地狱的底色
+    
+    # === 战神怒火与灵魂 ===
+    text_color: 0x004EFF                  # 正在输入的拼音：烈焰与复仇的熔岩橙 (BGR: 0x004EFF, RGB: #FF4E00)
+    hilited_text_color: 0x004EFF          # 高亮拼音同上
+    hilited_back_color: 0x1A1918          # 拼音区底色
+    
+    # === 混沌斩击(高亮)色块 ===
+    hilited_candidate_back_color: 0x1B0E9C # 选中项背景：挥舞大剑时的血红杀戮特效 (BGR: 0x1B0E9C, RGB: #9C0E1B)
+    hilited_candidate_text_color: 0x3FD0F4 # 选中项字色：骑士的神圣暗金/怒气值颜色 (BGR: 0x3FD0F4, RGB: #F4D03F)
+    
+    candidate_text_color: 0xAEB7C2        # 常规候选字：风化白骨碎片与灰烬色 (BGR: 0xAEB7C2, RGB: #C2B7AE)
+    comment_text_color: 0x82C747          # 旁注：Vulgrim 老板最爱的贪婪灵魂幽绿色 (BGR: 0x82C747, RGB: #47C782)
+    label_color: 0x82C747                 # 序号：同上魂绿，代表你收集的灵魂数量提示
+    
+    # === 哥特式重金属排版 ===
+    "style/font_point": 18                # 字体放大以彰显大剑的挥砍力量感
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14          # 序号略小，核心是文字本身的力量
+    "style/layout/border_width": 2        # 沉重的金属框线压阵
+    "style/layout/candidate_spacing": 10  # 宽阔的斩击空间
+    "style/layout/corner_radius": 0       # 绝对的锋利直角，如战神手中的巨剑！
+    "style/layout/hilite_padding": 8      # 色块如泼血般宽大、粗犷
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 0
+    "style/layout/shadow_offset_x": 4     # 沉重的向下方坠落的物理阴影，表现铁甲的重量
+    "style/layout/shadow_offset_y": 6
+    "style/layout/shadow_radius": 5       # 稍微有些弥散，像焦土战场的硝烟
+    "style/layout/spacing": 10
+  "preset_color_schemes/dmc5":
+    author: "AI 设计"
+    name: "鬼泣5 / Devil May Cry 5"
+    
+    # === 破碎的恶魔晶体背景 ===
+    back_color: 0x1A1512                  # 深邃的黑曜石底色 (BGR: 0x1A1512, RGB: #12151A)
+    border_color: 0xFFCC00                # 尼禄(Nero)的霓虹青蓝线框 (BGR: 0xFFCC00, RGB: #00CCFF)
+    shadow_color: 0x5500FF                # 色散效应的品红/紫光阴影 (BGR: 0x5500FF, RGB: #FF0055)
+    
+    # === SSS评价连击计画 (Style Rank) ===
+    text_color: 0x00D4FF                  # 正在输入的拼音：SSS评价级别的耀眼金色 (BGR: 0x00D4FF, RGB: #FFD400)
+    hilited_text_color: 0x00D4FF          # 拼音同上
+    hilited_back_color: 0x1A1512          # 拼音区底色
+    
+    # === 处决(高亮)劈砍色块 ===
+    hilited_candidate_back_color: 0x1E00E6 # 选中项背景：但丁(Dante)的经典大剑狂野刺红 (BGR: 0x1E00E6, RGB: #E6001E)
+    hilited_candidate_text_color: 0xFFFFFF # 选中项字色：极限纯白，锋利刺眼
+    
+    candidate_text_color: 0xCCCCCC        # 常规候选字：魔树与重金属的冷银灰 (BGR: 0xCCCCCC)
+    comment_text_color: 0xFFCC00          # 旁注：霓虹青蓝辅助色
+    label_color: 0xFFCC00                 # 序号：霓虹青蓝全息UI刻度
+    
+    # === RE引擎硬派UI布局 (Glitch/碎玻璃特效) ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 16          # 序号稍大，锋芒毕露
+    "style/layout/border_width": 2        # 发光感的两像素硬边框
+    "style/layout/candidate_spacing": 12  # 拉宽词距，体现玻璃碎裂散开的空间感
+    "style/layout/corner_radius": 0       # 绝对的锋利直角！
+    "style/layout/hilite_padding": 8        # [优化调整] 增加红块包裹高度，让它更饱满
+    "style/layout/margin_x": 10             # [优化调整] 缩小两侧黑边，显得紧凑凌厉
+    "style/layout/margin_y": 8              # [优化调整] 大幅缩小上下黑边，让红块（但丁大剑）高度显得充满整个光条
+    "style/layout/round_corner": 0
+    "style/layout/shadow_offset_x": 4       # [优化] 稍微收一丁点错位距离即可
+    "style/layout/shadow_offset_y": 6
+    "style/layout/shadow_radius": 2         # [优化] 必须加一点点羽化（>0），强制小狼毫渲染出那层“品红色”的影子
+    "style/layout/spacing": 10
+  "preset_color_schemes/win11_light":
+    author: "AI 设计"
+    back_color: 0xFAFAFA
+    border_color: 0xE6E6E6
+    candidate_text_color: 0x1A1A1A
+    comment_text_color: 0x888888
+    hilited_back_color: 0xFAFAFA
+    hilited_candidate_back_color: 0xEAEAEA
+    hilited_candidate_text_color: 0x1A1A1A
+    hilited_text_color: 0x1A1A1A
+    label_color: 0xD76D05
+    name: "Windows 11 浅色 / Win11 Light"
+    shadow_color: 0xCCCCCC
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 6
+    "style/layout/corner_radius": 8
+    "style/layout/hilite_padding": 4
+    "style/layout/margin_x": 4
+    "style/layout/margin_y": 4
+    "style/layout/round_corner": 4
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 3
+    "style/layout/shadow_radius": 5
+    "style/layout/spacing": 10
+    text_color: 0x1A1A1A
+  "style/color_scheme": macos_light
+  "style/font_point": 17
+  "style/horizontal": true
+  "style/inline_preedit": true
+  "style/label_font_point": 14
+  "style/layout/border_width": 1
+  "style/layout/candidate_spacing": 6
+  "style/layout/corner_radius": 12
+  "style/layout/hilite_padding": 6
+  "style/layout/margin_x": 6
+  "style/layout/margin_y": 6
+  "style/layout/round_corner": 12
+  "style/layout/shadow_offset_x": 0
+  "style/layout/shadow_offset_y": 4
+  "style/layout/shadow_radius": 12
+  "style/layout/spacing": 12
