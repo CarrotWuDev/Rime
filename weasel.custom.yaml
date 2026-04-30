@@ -58,17 +58,17 @@ patch:
     text_color: 0x43403C
   "preset_color_schemes/logos_light":
     author: "AI 设计"
-    back_color: 0xFAFAFA
-    border_color: 0xEAEAEA
-    candidate_text_color: 0x222222
-    comment_text_color: 0x888888
-    hilited_back_color: 0xFAFAFA
-    hilited_candidate_back_color: 0xFAFAFA
+    back_color: 0xFFFFFF
+    border_color: 0xF2F2F2
+    candidate_text_color: 0x333333
+    comment_text_color: 0x999999
+    hilited_back_color: 0xFFFFFF
+    hilited_candidate_back_color: 0xFFFFFF
     hilited_candidate_text_color: 0xFF7300
-    hilited_text_color: 0x222222
-    label_color: 0x999999
+    hilited_text_color: 0x333333
+    label_color: 0xBBBBBB
     name: "落格浅色无框 / Logos Light"
-    shadow_color: 0xCCCCCC
+    shadow_color: 0xDDDDDD
     "style/font_point": 17
     "style/horizontal": true
     "style/inline_preedit": true
@@ -156,14 +156,14 @@ patch:
     label_color: 0xFFFFFF
     name: "女神异闻录5 / Persona 5"
     shadow_color: 0x050505
-    "style/font_point": 18
+    "style/font_point": 17
     "style/horizontal": true
     "style/inline_preedit": true
-    "style/label_font_point": 18
+    "style/label_font_point": 7
     "style/layout/border_width": 3
     "style/layout/candidate_spacing": 8
     "style/layout/corner_radius": 0
-    "style/layout/hilite_padding": 8
+    "style/layout/hilite_padding": 7
     "style/layout/margin_x": 8
     "style/layout/margin_y": 8
     "style/layout/round_corner": 0
@@ -297,7 +297,7 @@ patch:
     label_color: 0x82C747                 # 序号：同上魂绿，代表你收集的灵魂数量提示
     
     # === 哥特式重金属排版 ===
-    "style/font_point": 18                # 字体放大以彰显大剑的挥砍力量感
+    "style/font_point": 17                # 字体放大以彰显大剑的挥砍力量感
     "style/horizontal": true
     "style/inline_preedit": true
     "style/label_font_point": 14          # 序号略小，核心是文字本身的力量
@@ -350,6 +350,44 @@ patch:
     "style/layout/shadow_offset_y": 6
     "style/layout/shadow_radius": 2         # [优化] 必须加一点点羽化（>0），强制小狼毫渲染出那层“品红色”的影子
     "style/layout/spacing": 10
+  "preset_color_schemes/dmc4":
+    author: "AI 设计"
+    name: "鬼泣4 / Devil May Cry 4"
+    
+    # === 哥特与恶魔右腕 ===
+    back_color: 0x1A1512                  # 哥特暗沉阴影色与微薄铁色 (BGR: 0x1A1512)
+    border_color: 0xEAB055                # 教团骑士徽章/尼禄扣带的金属银金色 (BGR: 0xEAB055, RGB: #55B0EA)
+    shadow_color: 0x0A0A0A                # 深沉暗黑边缘
+    
+    # === Devil Bringer 恶魔右腕幽光 ===
+    text_color: 0xFCB241                  # 输入拼音：尼禄恶魔右腕标志性的幽然青蓝光芒 (BGR: 0xFCB241, RGB: #41B2FC)
+    hilited_text_color: 0xFCB241          # 高亮拼音：青蓝幽光
+    hilited_back_color: 0x1A1512          # 拼音底色
+    
+    # === Red Queen 绯红女皇 ===
+    hilited_candidate_back_color: 0x221199 # 选中项背景：红女皇大剑拉满油门的炽热暗红 (BGR: 0x221199, RGB: #991122)
+    hilited_candidate_text_color: 0xFFFFFF # 选中文字色：金属般纯白
+    
+    candidate_text_color: 0xBABABA        # 待选项色：沧桑陈旧的石雕银灰色 (BGR: 0xBABABA)
+    comment_text_color: 0xAC8258          # 旁注色：教团骑士的黯淡暗黄 (BGR: 0xAC8258, RGB: #5882AC)
+    label_color: 0xFCB241                 # 序号色：恶魔之手的幽蓝，与拼音呼应
+    
+    # === 哥特华丽质感 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 15
+    "style/layout/border_width": 2
+    "style/layout/candidate_spacing": 10
+    "style/layout/corner_radius": 4       # DMC4的UI比起DMC5的锋利，稍微有一点哥特曲线的弧度圆角
+    "style/layout/hilite_padding": 6      # 油门劈砍红底块适中厚实
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 4
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 5
+    "style/layout/shadow_radius": 5       # 稍微有些雾化阴影以衬托幽暗气氛
+    "style/layout/spacing": 12
   "preset_color_schemes/win11_light":
     author: "AI 设计"
     back_color: 0xFAFAFA
@@ -379,19 +417,332 @@ patch:
     "style/layout/shadow_radius": 5
     "style/layout/spacing": 10
     text_color: 0x1A1A1A
-  "style/color_scheme": macos_light
+  "preset_color_schemes/wetype":
+    author: "AI 设计"
+    name: "微信输入法 / WeType"
+    back_color: 0xFFFFFF
+    border_color: 0xEAEAEA
+    candidate_text_color: 0x333333
+    comment_text_color: 0x999999
+    label_color: 0x999999
+    hilited_candidate_back_color: 0x6EBB0D
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_text_color: 0x333333
+    text_color: 0x333333
+    hilited_back_color: 0xFFFFFF
+    shadow_color: 0xDDDDDD
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 16
+    "style/layout/corner_radius": 14
+    "style/layout/hilite_padding": 8
+    "style/layout/margin_x": 12
+    "style/layout/margin_y": 12
+    "style/layout/round_corner": 8
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 2
+    "style/layout/shadow_radius": 10
+    "style/layout/spacing": 12
+  "preset_color_schemes/wow_classic":
+    author: "AI 设计"
+    name: "魔兽世界 / World of Warcraft"
+    
+    # === 艾泽拉斯的羊皮纸与古铜 ===
+    back_color: 0x161A1E                  # 经典UI黑石木纹底色 / 炉石旅店墙灰 (BGR: 0x161A1E, RGB: #1E1A16)
+    border_color: 0x3C9BC4                # 传说材质与游戏UI边缘的厚重暗金色/青铜 (BGR: 0x3C9BC4, RGB: #C49B3C)
+    shadow_color: 0x050505                # 沉重的阴影黑
+    
+    # === 传说与史诗的交织 ===
+    text_color: 0x0080FF                  # 正在输入的拼音：无敌存在的【橙装】传说光芒 (BGR: 0x0080FF, RGB: #FF8000)
+    hilited_text_color: 0x0080FF          # 高亮拼音同上
+    hilited_back_color: 0x161A1E          # 拼音区底板
+    
+    # === 为了部落/联盟 ===
+    hilited_candidate_back_color: 0x16168C # 选中项背景：暴怒的【部落红】/ 鲜血怒嚎 (BGR: 0x16168C, RGB: #8C1616) [若你玩联盟，也可改为0x874514]
+    hilited_candidate_text_color: 0xD2E6F0 # 选中项字色：魔法的亮洁白
+    
+    candidate_text_color: 0x8A9EAB        # 正常的待选字：复古的羊皮纸色 (BGR: 0x8A9EAB, RGB: #AB9E8A)
+    comment_text_color: 0x00FF33          # 旁注(编码等)：【优秀】的邪能绿/精良绿 (BGR: 0x00FF33, RGB: #33FF00)
+    label_color: 0x3C9BC4                 # 序号：呼应边框的暗金复古色
+    
+    # === RPG 经典排版属性 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 15
+    "style/layout/border_width": 2        # 粗犷的古铜色描边
+    "style/layout/candidate_spacing": 10
+    "style/layout/corner_radius": 4       # 略带岁月的微圆角
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 4
+    "style/layout/shadow_offset_x": 2
+    "style/layout/shadow_offset_y": 4
+    "style/layout/shadow_radius": 8       # 给点魔法光晕
+    "style/layout/spacing": 12
+  "preset_color_schemes/wow_illidan":
+    author: "AI 设计"
+    name: "伊利丹·怒风 / WoW: Illidan"
+    
+    # === 黑暗神殿的深渊与邪能 ===
+    back_color: 0x1A1115                  # 恶魔猎手的幽暗紫黑底色 (BGR: 0x1A1115, RGB: #15111A)
+    border_color: 0x20C240                # 埃辛诺斯战刃的邪能绿锋纹 (BGR: 0x20C240, RGB: #40C220)
+    shadow_color: 0x4B1238                # 渗透的暗夜与暗影烈焰紫阴影 (BGR: 0x4B1238, RGB: #38124B)
+    
+    # === 你们这是自寻死路！ ===
+    text_color: 0x12FF5A                  # 正在输入的拼音：极限亮度的邪能火芒 (BGR: 0x12FF5A, RGB: #5AFF12)
+    hilited_text_color: 0x12FF5A          # 高亮拼音同上
+    hilited_back_color: 0x1A1115          # 拼音区底板
+    
+    # === 恶魔之咬 ===
+    hilited_candidate_back_color: 0x6E2548 # 选中项背景：伊利丹皮肤与眼罩的暗魔之紫 (BGR: 0x6E2548, RGB: #48256E)
+    hilited_candidate_text_color: 0x12FF5A # 选中项字色：邪能之绿从暗紫中破空而出，对比极度炸裂
+    
+    candidate_text_color: 0xCCBAD1        # 正常的待选字：暗夜精灵月刃的清冷霜银紫 (BGR: 0xCCBAD1, RGB: #D1BACC)
+    comment_text_color: 0x825992          # 旁注(编码等)：暗沉的魔法余光 (BGR: 0x825992, RGB: #925982)
+    label_color: 0x20C240                 # 序号：邪能绿点缀呼应边框
+    
+    # === 刃舞排版 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 15
+    "style/layout/border_width": 2        # 如蛋刀般锋利的线条边框
+    "style/layout/candidate_spacing": 10
+    "style/layout/corner_radius": 0       # 恶魔猎手的极致锋利感，直角拒绝圆滑
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 0
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 6
+    "style/layout/shadow_radius": 8       # 散发法力光晕
+    "style/layout/spacing": 12
+  "preset_color_schemes/wow_arthas":
+    author: "AI 设计"
+    name: "巫妖王：阿尔萨斯 / WoW: Arthas"
+    
+    # === 冰冠堡垒的寒霜与萨隆邪铁 ===
+    back_color: 0x221A11                  # 萨隆邪铁与冰冻王座的深冷蓝灰 (BGR: 0x221A11, RGB: #111A22)
+    border_color: 0xC88E4F                # 霜之哀伤护格的苍冷符文银钢 (BGR: 0xC88E4F, RGB: #4F8EC8)
+    shadow_color: 0x401E10                # 死亡骑士极寒的暗流结冰阴影 (BGR: 0x401E10, RGB: #101E40)
+    
+    # === 凛冬将至 ===
+    text_color: 0xFFE122                  # 正在输入的拼音：霜之哀伤吞噬灵魂的极寒冰蓝 (BGR: 0xFFE122, RGB: #22E1FF)
+    hilited_text_color: 0xFFE122          # 高亮拼音同上
+    hilited_back_color: 0x221A11          # 拼音区底板
+    
+    # === 无敌的悲鸣 ===
+    hilited_candidate_back_color: 0x5B350E # 选中项背景：天灾军团的幽暗冰狱蓝 (BGR: 0x5B350E, RGB: #0E355B)
+    hilited_candidate_text_color: 0xFFFFFF # 选中项字色：极寒纯冰白
+    
+    candidate_text_color: 0xDEC4B0        # 正常的待选字：飘雪与骨灰的苍冷苍白 (BGR: 0xDEC4B0, RGB: #B0C4DE)
+    comment_text_color: 0x8A7842          # 旁注(编码等)：死寂的暗淡冰华青 (BGR: 0x8A7842, RGB: #42788A)
+    label_color: 0xC88E4F                 # 序号：同霜钢边框色
+    
+    # === 霜之哀伤的刻痕 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 15
+    "style/layout/border_width": 2        # 寒冰铸造的硬朗边线
+    "style/layout/candidate_spacing": 10
+    "style/layout/corner_radius": 2       # 微微被冰霜磨平的锐利棱角
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 2
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 4
+    "style/layout/shadow_radius": 6       # 冰寒的微弱雾气散逸感
+    "style/layout/spacing": 12
+  "preset_color_schemes/neo_brutalism":
+    author: "AI 设计"
+    name: "新粗野主义 / Neo-Brutalism"
+    back_color: 0xF2F2F2                  # 偏冷的纸白底色 (RGB: #F2F2F2)
+    border_color: 0x000000                # 极度生硬的纯黑边框
+    shadow_color: 0x000000                # 纯黑实心波普阴影
+    
+    text_color: 0x000000                  # 拼音字色：极黑
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xF2F2F2
+    
+    hilited_candidate_back_color: 0x00E6FF # Figma 标志性的大亮黄 (BGR: 0x00E6FF, RGB: #FFE600)
+    hilited_candidate_text_color: 0x000000 # 纯黑高对比，波普艺术风格
+    
+    candidate_text_color: 0x000000        # 常规备选字也是纯黑
+    comment_text_color: 0x555555          # 注释深灰
+    label_color: 0x000000                 # 序号纯黑
+    
+    # === 夸张硬核的排版 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 16
+    "style/layout/border_width": 3        # 必须是极粗烈的黑边
+    "style/layout/candidate_spacing": 14  # 拉开空间以凸显色块
+    "style/layout/corner_radius": 0       # 绝对的 0 圆角矩形
+    "style/layout/hilite_padding": 8      # 色块占比较大，粗暴糊在字面后面
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 0
+    "style/layout/shadow_offset_x": 6     # 向右平移的明显生硬阴影
+    "style/layout/shadow_offset_y": 6
+    "style/layout/shadow_radius": 0       # 精髓所在：阴影弥散度必须为 0！
+    "style/layout/spacing": 12
+  "preset_color_schemes/pseudo_glassmorphism":
+    author: "AI 设计"
+    name: "模拟磨砂玻璃 / Pseudo-Glass"
+    back_color: 0xFCF9F9                  # 极微弱的蓝调冷晶白底色 (BGR: 0xFCF9F9, RGB: #F9F9FC)
+    border_color: 0xFFFFFF                # 纯白边框，模拟高光边缘折射
+    shadow_color: 0xDCD1CB                # 松弛柔和的高级淡蓝灰大弥散阴影 (BGR: 0xDCD1CB, RGB: #CBD1DC)
+    
+    text_color: 0x333333                  # 拼音字色：深灰，不刺眼
+    hilited_text_color: 0x333333
+    hilited_back_color: 0xFCF9F9
+    
+    hilited_candidate_back_color: 0xFAF1EA # 温柔的清透水蓝底色块 (BGR: 0xFAF1EA, RGB: #EAF1FA)
+    hilited_candidate_text_color: 0xFF7A00 # 经典的 Apple System Blue / 微软链接蓝 (BGR: 0xFF7A00, RGB: #007AFF)
+    
+    candidate_text_color: 0x444444        # 灰色正文，柔滑干净
+    comment_text_color: 0xAAAAAA          # 极致减弱的注释色
+    label_color: 0xAAAAAA                 # 弱化的数字色
+    
+    # === 大包容、极圆润的排版 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 2        # 加入厚实的透明玻璃感白边
+    "style/layout/candidate_spacing": 16  # 极其宽阔的呼吸感
+    "style/layout/corner_radius": 16      # 巨大的微润圆角
+    "style/layout/hilite_padding": 8      # 让蓝色包裹光圈更柔软充盈
+    "style/layout/margin_x": 8
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 16
+    "style/layout/shadow_offset_x": 0     # 苹果风正下方坠落阴影
+    "style/layout/shadow_offset_y": 10
+    "style/layout/shadow_radius": 20      # 超级广的弥散范围带来完全“浮空”的错觉
+    "style/layout/spacing": 12
+  "preset_color_schemes/nord_terminal":
+    author: "AI 设计"
+    name: "程序员极客风 / Nord Terminal"
+    back_color: 0x40342E                  # Nord 极地夜色背景
+    border_color: 0xC1A181                # 终端感冷蓝边框
+    shadow_color: 0x2A1F1B                # 深海军蓝阴影
+
+    text_color: 0xE9DED8                  # 拼音与正文：Nord 冷白
+    hilited_text_color: 0xE9DED8
+    hilited_back_color: 0x40342E
+
+    hilited_candidate_back_color: 0xAC815E # 代码编辑器式的高亮蓝块
+    hilited_candidate_text_color: 0xF4EFEC # 高对比终端白
+
+    candidate_text_color: 0xF0E9E5        # 常规候选字：冷白偏灰
+    comment_text_color: 0xD0C088          # 注释/编码提示：Nord 冰蓝
+    label_color: 0x8CBEA3                 # 序号：少量青绿色点缀
+
+    # === 终端、编辑器与极客感排版 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1        # 轻边框，更像工具栏/编辑器浮层
+    "style/layout/candidate_spacing": 12
+    "style/layout/corner_radius": 8       # 温和圆角，贴近现代 IDE 风格
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 8
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 5
+    "style/layout/shadow_radius": 12      # 柔和悬浮阴影，像浮在代码窗口上
+    "style/layout/spacing": 12
+  "preset_color_schemes/morandi_wabi_sabi":
+    author: "AI 设计"
+    name: "莫兰迪 / 侘寂美学"
+    back_color: 0xE8EFF3                  # 暖灰纸感底色 (RGB: #F3EFE8)
+    border_color: 0xCCD6DD                # 低饱和边框灰 (RGB: #DDD6CC)
+    shadow_color: 0xD8D2CA                # 柔和投影 (RGB: #CAD2D8)
+
+    text_color: 0x545A5F                  # 石板灰文字 (RGB: #5F5A54)
+    hilited_text_color: 0x545A5F
+    hilited_back_color: 0xE8EFF3
+
+    hilited_candidate_back_color: 0xD1C7BE # 雾粉暖棕高亮块 (RGB: #BEC7D1)
+    hilited_candidate_text_color: 0xFFFFFF # 选中项纯净白字
+
+    candidate_text_color: 0x67615B        # 正常候选字：低对比暖灰
+    comment_text_color: 0x9F958D          # 注释：更浅一阶的灰褐
+    label_color: 0xA79E95                 # 序号：柔和不抢眼
+
+    # === 克制、安静、留白 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 10
+    "style/layout/corner_radius": 12
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 12
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 4
+    "style/layout/shadow_radius": 10
+    "style/layout/spacing": 12
+  "preset_color_schemes/midnight_gold":
+    author: "AI 设计"
+    name: "极简黑金 / Midnight Gold"
+    back_color: 0x0B0B0B                  # 纯黑 OLED 底色
+    border_color: 0x4A3A22                # 拉丝金属边框 (RGB: #223A4A)
+    shadow_color: 0x060606                # 近乎纯黑阴影
+
+    text_color: 0xEAD8B0                  # 冷香槟金文字 (RGB: #B0D8EA)
+    hilited_text_color: 0xEAD8B0
+    hilited_back_color: 0x0B0B0B
+
+    hilited_candidate_back_color: 0x2A4C67 # 深海军蓝里的金色光块 (RGB: #674C2A)
+    hilited_candidate_text_color: 0xFFF6E8 # 奢华暖白
+
+    candidate_text_color: 0xD0C3AD        # 普通候选字：低饱和金灰
+    comment_text_color: 0x8B7A62          # 注释：暗香槟棕
+    label_color: 0xC5A46A                 # 序号：小面积金色点缀
+
+    # === 暗夜奢华、克制发光 ===
+    "style/font_point": 17
+    "style/horizontal": true
+    "style/inline_preedit": true
+    "style/label_font_point": 14
+    "style/layout/border_width": 1
+    "style/layout/candidate_spacing": 10
+    "style/layout/corner_radius": 10
+    "style/layout/hilite_padding": 6
+    "style/layout/margin_x": 10
+    "style/layout/margin_y": 8
+    "style/layout/round_corner": 10
+    "style/layout/shadow_offset_x": 0
+    "style/layout/shadow_offset_y": 5
+    "style/layout/shadow_radius": 12
+    "style/layout/spacing": 12
+  "style/color_scheme": neo_brutalism
   "style/font_point": 17
   "style/horizontal": true
   "style/inline_preedit": true
-  "style/label_font_point": 14
-  "style/layout/border_width": 1
-  "style/layout/candidate_spacing": 6
-  "style/layout/corner_radius": 12
-  "style/layout/hilite_padding": 6
-  "style/layout/margin_x": 6
-  "style/layout/margin_y": 6
-  "style/layout/round_corner": 12
-  "style/layout/shadow_offset_x": 0
-  "style/layout/shadow_offset_y": 4
-  "style/layout/shadow_radius": 12
+  "style/label_font_point": 16
+  "style/layout/border_width": 3        # 必须是极粗烈的黑边
+  "style/layout/candidate_spacing": 14  # 拉开空间以凸显色块
+  "style/layout/corner_radius": 0       # 绝对的 0 圆角矩形
+  "style/layout/hilite_padding": 7    # 色块占比较大，粗暴糊在字面后面
+  "style/layout/margin_x": 8
+  "style/layout/margin_y": 8
+  "style/layout/round_corner": 0
+  "style/layout/shadow_offset_x": 6     # 向右平移的明显生硬阴影
+  "style/layout/shadow_offset_y": 6
+  "style/layout/shadow_radius": 0       # 精髓所在：阴影弥散度必须为 0！
   "style/layout/spacing": 12
